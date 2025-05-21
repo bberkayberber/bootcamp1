@@ -6,7 +6,7 @@
 [Git](https://git-scm.com/downloads)
 
 
-##Git
+## Git
 ```sh
 git init
 git add 
