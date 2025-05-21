@@ -27,7 +27,7 @@ public class _2_JavaPrimitiveTypes {
 
         // char
 
-        char c1 = 'ﺐ'; //
+        char c1 = 'ﺐ';
         System.out.println("char = " + c1);
     }
 }
