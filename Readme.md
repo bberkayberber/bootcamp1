@@ -17,3 +17,13 @@ git clone https://github.com/bberkayberber/bootcamp1.git
 ```
 ---
 
+
+
+## Java Commen Rules
+```sh
+Class isimleri PascalCase olarak yazılır
+Class isimller
+
+
+```
+---
