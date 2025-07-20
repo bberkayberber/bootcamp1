@@ -14,11 +14,41 @@ public class _2_Variables {
          */
         // Primitive Types 8 tanedir. null değer alınamaz
         //1- isim veya sıfat,  zamir kullanmamız lazım.
+        // Anlamlı ve acıklayıcı isimler secilir.
 
         int schoolNumber = 25;
         System.out.println("schoolNumber = " + schoolNumber);
         schoolNumber = 344;
         System.out.println("schoolNumber = " + schoolNumber);
+
+        int _schoolnumber = 25;
+        System.out.println("_schoolnumber = " + _schoolnumber);
+
+        int $schoolnumber = 25;
+        System.out.println("$schoolnumber = " + $schoolnumber);
+
+        int schoolNumber1 = 26;
+        System.out.println("schoolNumber1 = " + schoolNumber1);
+
+        //int 1schoolNumber = 26; // BÖYLE OLAMAZ
+
+        //int %schoolNumber = 1; //  BÖYLE OLAMAZ
+
+        //int school-Number = 123; // BÖYLE OLAMAZ
+
+        // SABİT SAYILARIN YAZIMI
+
+        int MAX_STUDENTS = 100;// EĞER FİNALY YAZILMAZSA
+        System.out.println("MAX_STUDENDES = " + MAX_STUDENTS);
+        MAX_STUDENTS = 1110;
+        System.out.println("MAX_STUDENDES = " + MAX_STUDENTS);
+        // YUKARDA MAX_STUDENTS 100'DEN 1110'A GÜNCELLENDİ
+
+        final int MAX_STUDENTS1 = 110;
+
+
+
+
 
 
     }
