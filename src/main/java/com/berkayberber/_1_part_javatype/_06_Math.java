@@ -27,6 +27,8 @@ public class _06_Math {
         System.out.println("Trigonometrik ArcSinüs: "+Math.asin(1));
 
         System.out.println("Trigonometrik Cosinüs: "+Math.cos(1));
+        System.out.println("Trigonometrik ArcCosinüs: "+Math.acos(1));
+
         System.out.println("Trigonometrik Tanjant: "+Math.tan(1));
 
 
