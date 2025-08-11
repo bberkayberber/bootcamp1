@@ -1,6 +1,6 @@
 package com.berkayberber._2_week;
 
-public class _09_04_Conditional_multiple {
+public class _09_04_Conditional_Multiple {
 
     public static void main(String[] args) {
         int number=-5;

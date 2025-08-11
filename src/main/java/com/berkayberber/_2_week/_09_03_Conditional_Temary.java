@@ -1,6 +1,6 @@
 package com.berkayberber._2_week;
 
-public class _09_03_Conditional_temary {
+public class _09_03_Conditional_Temary {
 
     public static void main(String[] args) {
 
