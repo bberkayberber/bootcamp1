@@ -44,6 +44,38 @@ public class _12_01_String1 {
         System.out.println(vocabulary1.substring(4,10)); //VERİLEN ARALIKTAKİ KELİMELER HARİÇ PARÇALAR
 
 
+        //Contains
+
+        System.out.println("Geçiyor mu ? :"+vocabulary1.contains("Java"));
+
+        //Replace
+        vocabulary1 = vocabulary1.replace("Java","JAVA 2025");
+        System.out.println("Değştir :" + vocabulary1.replace("Java","JAVA 2025"));
+        System.out.println(vocabulary1);
+
+        // Birleştirme
+        String concatnation =vocabulary1 + vocabulary2 + vocabulary2;
+        System.out.println(concatnation);
+        System.out.println(vocabulary1.concat(" jsp").concat(" jsf"));
+
+
+        // String Builder APİLERDE KULLANILIR DAHA HIZLIDIR
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append(vocabulary1).append(" jpp").append(" jsf");
+        String dataToString1 = stringBuilder.toString();
+        System.out.println(dataToString1);
+
+        // String Buffer   DAHA MANTIKLIDIR
+        StringBuilder stringBuffer = new StringBuilder();
+        stringBuffer.append(vocabulary1).append(" jpp").append(" jsf");
+        String dataToString2 = stringBuffer.toString();
+        System.out.println(dataToString2);
+
+        System.out.println(vocabulary1.hashCode());
+        System.out.println(vocabulary2.hashCode());
+
+
+
 
 
 
